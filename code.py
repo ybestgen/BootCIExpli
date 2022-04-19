@@ -4,9 +4,9 @@ Examples on real data are proposed here, which allows to reproduce the experimen
 "Please, Don't Forget the Difference and the Confidence Interval when Seeking for the State-of-the-Art Status", 
 accepted at LREC 2022.
 
-The first example compares the findings from the LeaderBoard with those from a significance test and a confidence interval. 
-It shows a well-known phenomenon in statistics: the same difference in scores will be statistically significant or not 
-depending on the sample size.
+The first example compares the findings from the LeaderBoard with those from a significance test 
+and a confidence interval. It shows a well-known phenomenon in statistics: 
+the same difference in scores will be statistically significant or not depending on the sample size.
 
 The second example confirms that "statistically significant does not mean important", 
 a clarification requested by a reviewer of the paper.
