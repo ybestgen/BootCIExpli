@@ -1,9 +1,15 @@
 '''
-This code illustrates the use of paired_bootstrap_interval and Fisher_Pitman_paired_test. It is based on dummy data. Examples on real data are proposed here, which allows to reproduce the experiments presented in "Please, Don't Forget the Difference and the Confidence Interval when Seeking for the State-of-the-Art Status", accepted at LREC 2022.
+This code illustrates the use of paired_bootstrap_interval and Fisher_Pitman_paired_test. It is based on dummy data. 
+Examples on real data are proposed here, which allows to reproduce the experiments presented in 
+"Please, Don't Forget the Difference and the Confidence Interval when Seeking for the State-of-the-Art Status", 
+accepted at LREC 2022.
 
-The first example compares the findings from the LeaderBoard with those from a significance test and a confidence interval. It shows a well-known phenomenon in statistics: the same difference in scores will be statistically significant or not depending on the sample size.
+The first example compares the findings from the LeaderBoard with those from a significance test and a confidence interval. 
+It shows a well-known phenomenon in statistics: the same difference in scores will be statistically significant or not 
+depending on the sample size.
 
-The second example confirms that "statistically significant does not mean important", a clarification requested by a reviewer of the paper.
+The second example confirms that "statistically significant does not mean important", 
+a clarification requested by a reviewer of the paper.
 
 The expected output is as follows:
 Accuracy Niter = 1000 Alpha = 0.050000 Minimum possible p-value = 0.001000
@@ -27,8 +33,8 @@ Sample_Size | Mean_1  Mean_2 |  diff   p_value |  [   Low    diff    High ]
 import numpy as np
 from sklearn.metrics import accuracy_score
 import sys
-import paired_bootstrap_interval
-from Fisher_Pitman_paired_test import fpreptest
+from BootCI import paired_bootstrap_interval
+from BootCI.Fisher_Pitman_paired_test import fpreptest
 
 
 def stat(pred, rep):
