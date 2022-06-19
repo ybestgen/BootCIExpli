@@ -1,6 +1,6 @@
 # BootCIExpli
 
-This code illustrates the use of paired_bootstrap_interval and Fisher_Pitman_paired_test. It is based on dummy data. Examples on real data are proposed here: https://github.com/yves.bestgen/BootCIRealData, which allows to reproduce the experiments presented in "Please, Don't Forget the Difference and the Confidence Interval when Seeking for the State-of-the-Art Status", accepted at LREC 2022.
+This code illustrates the use of paired_bootstrap_interval and Fisher_Pitman_paired_test. It is based on dummy data. Examples on real data are proposed here: https://github.com/ybestgen/BootCIRealData, which allows to reproduce the experiments presented in "Please, Don't Forget the Difference and the Confidence Interval when Seeking for the State-of-the-Art Status", accepted at LREC 2022.
 
 
 ## Installation
